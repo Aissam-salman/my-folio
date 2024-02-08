@@ -191,6 +191,18 @@ function commander(cmd) {
                 window.open('https://youtu.be/t6-cCh9bTG4?t=13','_blank');
             }, 2000);
             break;
+        case "sudo secret":
+            addLine("Oh no, you're not admin...", "color2", 80);
+            setTimeout(function () {
+                window.open('https://youtu.be/t6-cCh9bTG4?t=13','_blank');
+            }, 2000);
+            break;
+        case "sudo fkcode":
+            addLine("Oh no, you're not admin...", "color2", 80);
+            setTimeout(function () {
+                window.open('https://youtu.be/t6-cCh9bTG4?t=13','_blank');
+            }, 2000);
+            break;
         case "social":
             loopLines(social, "color2 margin", 80);
             break;
